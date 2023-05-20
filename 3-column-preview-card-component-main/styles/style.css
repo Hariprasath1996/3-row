@@ -30,6 +30,7 @@ body{
   gap: 1rem;
 border-top-left-radius:1rem;
   border-bottom-left-radius: 1rem;
+   color:  hsl(0, 0%, 95%);
  }
  
  .heading1 h1{
@@ -54,16 +55,7 @@ border-top-left-radius:1rem;
   align-items: flex-start;
   padding: 2rem;
   gap: 1rem;
- }
- .card2-img{
-  width: 100px;
- }
- .card2_h2{
-color:  hsl(0, 0%, 95%)
-;
- }
- .card2_p{
-  color:  hsl(0, 0%, 95%)
+  color:hsl(0, 0%, 95%) ;
  }
 .info2 button{
   border-radius: 1rem;
@@ -83,16 +75,9 @@ color:  hsl(0, 0%, 95%)
   gap: 1rem;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
- }
- .card3-img{
-  width: 100px;
- }
- .card3_h1{
   color:  hsl(0, 0%, 95%)
  }
- .card3_p{
-  color:  hsl(0, 0%, 95%)
- }
+ 
 .info3 button{
   border-radius: 1rem;
  border-color: hsl(0, 0%, 95%);
