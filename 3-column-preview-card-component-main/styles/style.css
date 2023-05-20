@@ -25,19 +25,15 @@ body{
   display:flex;
   flex-direction:column;
   justify-content:flex-start;
-  align-items: center;
+  align-items: flex-start;
   padding: 2rem;
-  gap: 1.3rem;
-  
+  gap: 1rem;
+border-top-left-radius:1rem;
+  border-bottom-left-radius: 1rem;
  }
- .card1-img{
-
-  align-self: flex-start;
  
- }
  .heading1 h1{
   color:  hsl(0, 0%, 95%);
-
  }
  .description1 p{
   color:  hsl(0, 0%, 95%)
@@ -46,8 +42,7 @@ body{
  border-radius: 1rem;
  border-color: hsl(0, 0%, 95%);
  padding: 0.5em;
- /* width: 7rem; */
- color:  hsl(31, 77%, 52%)
+ color:  hsl(31, 77%, 52%);
 }
 .card2{
   background-color: hsl(184, 100%, 22%);
@@ -55,9 +50,10 @@ body{
   height: 300px;
   display:flex;
   flex-direction:column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 2rem;
+  gap: 1rem;
  }
  .card2-img{
   width: 100px;
@@ -69,8 +65,11 @@ color:  hsl(0, 0%, 95%)
  .card2_p{
   color:  hsl(0, 0%, 95%)
  }
-.card2_button{
-  color:  hsl(0, 0%, 95%)
+.info2 button{
+  border-radius: 1rem;
+  border-color: hsl(0, 0%, 95%);
+  padding: 0.5em;
+  color: hsl(184, 100%, 22%);
 }
 .card3{
   background-color: hsl(179, 100%, 13%);
@@ -78,9 +77,12 @@ color:  hsl(0, 0%, 95%)
   height: 300px;
   display:flex;
   flex-direction:column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 2rem;
+  gap: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
  }
  .card3-img{
   width: 100px;
@@ -91,6 +93,9 @@ color:  hsl(0, 0%, 95%)
  .card3_p{
   color:  hsl(0, 0%, 95%)
  }
-.card3_button{
-  color:  hsl(0, 0%, 95%)
+.info3 button{
+  border-radius: 1rem;
+ border-color: hsl(0, 0%, 95%);
+ padding: 0.5em;
+ color:  hsl(179, 100%, 13%);
 }
