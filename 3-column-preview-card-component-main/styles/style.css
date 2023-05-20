@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Outfit:wght@400;600&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@400;600&display=swap');
+
+html{
+  font-size: 15px;
+}
+body{
+  background-color:  hsl(0, 0%, 95%);
+  width: 300px;;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1400px;
+  height: 600px;
+}
+ .card1{
+  background-color: hsl(31, 77%, 52%);
+  width: 180px;
+  height: 300px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items: center;
+  padding: 2rem;
+  gap: 1.3rem;
+  
+ }
+ .card1-img{
+
+  align-self: flex-start;
+ 
+ }
+ .heading1 h1{
+  color:  hsl(0, 0%, 95%);
+
+ }
+ .description1 p{
+  color:  hsl(0, 0%, 95%)
+ }
+.info1 button{
+ border-radius: 1rem;
+ border-color: hsl(0, 0%, 95%);
+ padding: 0.5em;
+ /* width: 7rem; */
+ color:  hsl(31, 77%, 52%)
+}
+.card2{
+  background-color: hsl(184, 100%, 22%);
+  width: 180px;
+  height: 300px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+ }
+ .card2-img{
+  width: 100px;
+ }
+ .card2_h2{
+color:  hsl(0, 0%, 95%)
+;
+ }
+ .card2_p{
+  color:  hsl(0, 0%, 95%)
+ }
+.card2_button{
+  color:  hsl(0, 0%, 95%)
+}
+.card3{
+  background-color: hsl(179, 100%, 13%);
+  width: 180px;
+  height: 300px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+ }
+ .card3-img{
+  width: 100px;
+ }
+ .card3_h1{
+  color:  hsl(0, 0%, 95%)
+ }
+ .card3_p{
+  color:  hsl(0, 0%, 95%)
+ }
+.card3_button{
+  color:  hsl(0, 0%, 95%)
+}
